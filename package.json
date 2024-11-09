@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve ."
   },
-  "author": "Renato de Souza Garcia",
+  "author": "Julio Cesar, Felipe Rioske",
   "license": "ISC",
   "dependencies": {
     "serve": "^13.0.4",
