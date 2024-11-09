@@ -1,0 +1,121 @@
+
+/*mano que porra de bagunça é essa mds*/
+/*/////////////////////////////////////////////////////////////////////*/
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(225, 193, 193);
+
+}
+
+/* classes */
+
+.container {
+/*border: solid blue 10px;*/
+/*border-style: solid;
+border-color: blue; 
+border-width: 3px;*/
+font-size: 25px;
+min-height: 100px;
+height: 100%;
+text-align: center;
+width: 100%;
+background-color: rgb(255, 216, 216);
+padding-top: 40px;
+padding-bottom: 40px;
+word-spacing: 5px;
+margin: auto;
+}
+
+.banner{
+
+    height: 150px;
+    background-color: blanchedalmond;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+
+.menu {
+/* height: 45px;
+padding-top: 10px;
+padding-bottom: 10px;
+line-height: 45px;
+padding: 8px;
+/*       TOP    RIGHT   BOTTOM  LEFT*/
+font-size: 1.5em;
+font-weight: bold;
+background-color: rgb(204, 182, 241);
+}
+
+
+.corpo{
+    /*height: 400px;*/
+
+    min-height: 400px;
+    padding: 25px 75px;
+    background-color: antiquewhite;
+    margin: auto;
+    text-align: center;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    background-color: rgb(181, 103, 103);
+}
+
+.pintura{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Estilo para a seção de cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+/* Estilo para cada card individual */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Estilo para as imagens dos cards */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para o título dos cards */
+.card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilo para a descrição dos cards */
+.card p {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 10px 10px;
+}
