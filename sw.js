@@ -1,6 +1,6 @@
 let cacheName = "metador-de-veia";
 let filesToCache = ["/", "/index.html", 
-                "/css/style.css", "/js/main.js, /html/carne, /html/doces, /html/massas, /images/"];
+                "/css/style.css", "/js/main.js, /html/carne, /html/doces, /html/massas, /images/, favicon.ico"];
 
 /* inicializando a service worker e fazendo o 
 download do conteúdo da aplicação */

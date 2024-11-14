@@ -100,18 +100,23 @@ background-color: rgb(204, 182, 241);
 }
 
 /* Estilo para cada card individual */
+.card :hover{
+    transform: scale(1.1);
+    transition: transform 0.25s ease-in-out;
+}
 .card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
+
 }
 
 /* Estilo para as imagens dos cards */
 .card img {
-    width: 100%;
-    height: auto;
+    width: 230px;
+    height: 200px;
 }
 
 /* Estilo para o título dos cards */
