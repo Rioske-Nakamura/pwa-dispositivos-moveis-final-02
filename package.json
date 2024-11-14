@@ -1,7 +1,7 @@
 {
   "name": "massas-carnes-doces",
   "version": "1.0.0",
-  "description": "Esta é a primeira pwa, usando vanilla JS",
+  "description": "Esta é a uma pwa de mercado",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
